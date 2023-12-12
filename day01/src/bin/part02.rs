@@ -64,7 +64,7 @@ mod tests {
 
     #[test]
     fn it_works() {
-        let result = part1("");
-        assert_eq!(result, "4".to_string());
+        let result = part1("eightwothree");
+        assert_eq!(result, "83".to_string());
     }
 }
