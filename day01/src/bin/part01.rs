@@ -11,7 +11,6 @@ fn part1(input: &str) -> String {
 
     for line in lines {
         let stripped = line.replace(&['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'][..], "");
-        let len = stripped.len();
 
         let first = stripped.chars().next().unwrap();
         let last = stripped.chars().last().unwrap();
