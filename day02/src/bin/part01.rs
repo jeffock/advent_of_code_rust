@@ -6,6 +6,8 @@ fn main() {
 }
 
 fn part1(input: &str) -> String {
+    let lines = input.lines();
+
     "todo".to_string()
 }
 
